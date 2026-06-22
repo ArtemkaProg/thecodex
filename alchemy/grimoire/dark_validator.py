@@ -1,7 +1,7 @@
 from .dark_spellbook import dark_spell_allowed_ingredients
 
 
-def validate_ingridients(ingridients: str):
+def validate_ingridients(ingridients: str) -> str:
     allowed = dark_spell_allowed_ingredients()
     splited1 = ingridients.split(", ")
     unpolished = splited1 + ingridients.split(" ")

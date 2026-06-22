@@ -1,4 +1,4 @@
-def validate_ingridients(ingridients: str):
+def validate_ingridients(ingridients: str) -> str:
     from .light_spellbook import light_spell_allowed_ingredients
 
     allowed = light_spell_allowed_ingredients()

@@ -1,3 +1,3 @@
-from .elements import create_air
-from .potions import strength_potion, healing_potion as heal
-from .transmutation import lead_to_gold
+from .elements import create_air # noqa
+from .potions import strength_potion, healing_potion as heal # noqa
+from .transmutation import lead_to_gold # noqa
